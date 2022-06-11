@@ -1,0 +1,37 @@
+Sumarize what you learn :
+
+    named_vector2.x = get_axis(x-, x+)
+    named_vector2.y =  get_axis(y_, y+) 
+    direction = direction.normalized()
+is equivalent to get_vector()
+
+a simple steering algorythm :
+    desired_velocity = max_speed * direction
+	steering_vector = desired_velocity - velocity
+	velocity += steering_vector * drag_factor
+
+	position += velocity * delta
+	if direction:
+		rotation = velocity.angle()
+
+More details here :
+https://gdquest.mavenseed.com/lessons/steering-the-ship-smoothly
+https://gdquest.mavenseed.com/community/13015-note-on-practice-04-makingshipsteer-makingshipsteer-gd-in-v1-0-0
+
+Physical key : the location on the keyboard
+Key : the letter on the keyboard
+
+
+
+
+
+Summarize what you did :
+Gave a feedback on the learning process of the ship section
+Used Control nodes to do UI
+
+Write what you'll focus on during your next session :
+UI <3 
+Dynamically create nodes with GDScript code
+Load and instance scenes with code
+Use dictionaries to create branching data structures
+onready 

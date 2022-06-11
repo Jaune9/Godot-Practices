@@ -1,4 +1,4 @@
 get_node() pour aller chercher une "sous" node
-get_node().any_method() notamment
+get_node("descending/path").any_method() notamment
 
 signal pour envoyer de la sous-node vers la node parente. 

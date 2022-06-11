@@ -1,0 +1,22 @@
+Sumarize what you learn :
+
+PanelContainer stretches its children to fit the panel.
+MarginContainer enforces a fixed margin on its children.
+VBoxContainer arranges its children in a column.
+
+So basically, putting 
+PanelContainer
+-> MarginContainer
+    -> VBoxContainer 
+Does a standard vertical UI. 
+
+Summarize what you did :
+Select tool active + Control Node == Layout in the top right corner. Efficient thing !
+Did a basic naked scoreboard I'll populate with score labels next time (with code !)
+
+Write what you'll focus on during your next session :
+UI <3 
+Dynamically create nodes with GDScript code
+Load and instance scenes with code
+Use dictionaries to create branching data structures
+onready 
