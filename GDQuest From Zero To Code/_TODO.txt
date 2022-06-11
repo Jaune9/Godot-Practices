@@ -1,0 +1,47 @@
+TODO AT LEAST ONCE:
+
+https://www.youtube.com/watch?v=IlU-zDU6aQ0
+https://www.youtube.com/watch?v=k2Wcu6aGyz8
+
+/////////////////////////////////////////////////////////////////////////
+
+TODO EVERYTIME:
+
+Stay hydrated
+
+BEFORE :
+
+Exercise (+20% boost to learning !)
+
+Cut all noises/tchat/popup (phone, mail, discord, PokéClicker)
+VSCode for all the notes for all the days
+
+Rain sounds 
+Pomodoro
+
+Read code of day-1
+
+AFTER :
+
+Clear your mind after practicing :
+- Summarize what you learned and what you did
+- Write what you'll focus on during your next session
+git add . && git commit -m "" && git push              IN LEARNING_GODOT
+
+AROUND :
+
+Engage with the community and stay accountable :
+- Check #100DaysOfGamedev on Twitter
+- Showcase your result
+- Share what you learned
+- Meditate
+
+IF NOT IN A GOOD PATTERN :
+
+- Breath (Cohérence cardiaque / Respirelax)
+- Read your Learning Plan !
+https://www.youtube.com/watch?v=IlU-zDU6aQ0
+https://www.youtube.com/watch?v=k2Wcu6aGyz8
+
+IF CREATIVITY IS LOW :
+https://youtu.be/ZWI4_Oe-Qbs

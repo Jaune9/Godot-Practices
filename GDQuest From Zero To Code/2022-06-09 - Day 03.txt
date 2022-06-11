@@ -1,0 +1,26 @@
+Mail of the day :
+
+1.	What is your number one goal with Godot and game creation?
+=> Learn software architecture and good practice that I'll use everyday, forever
+2.	How will your life be different once you reached that goal?
+=> I'll be more confident and more able to do what I envisionne, which is empowering. I like feeling not powerless
+3.	What's currently preventing you from achieving that goal?
+=> Ressources. I'm tired and occupied. 
+
+Sumarize what you learn :
+I shouldn't have deleted yesterday's project, I couldn't read the code againt, as simple as it was
+I learned that you can put scripts on anything, like a Sprite, to add behaviour to it. I thought as well but damn it's powerful and fun
+I learned Vector2.angle() with rotation = velocity.angle() to make the ship turn in a given direction
+The Script takes control of its hosts! rotation or position in a script are the attached Node properties.
+I learn to bind key to buttons and used the bind buttons with Input
+A Vector2(0, 0) can be check as False with an if 
+
+Summarize what you did :
+Added a velocity to my ship with a Vector2() * delta in _process
+I used rotation = velocity.angle() to give a direction to the ship. Handy ! 
+I went to Project -> Settings -> Input Map to bind keys
+I bind the keys to actions with 	direction = Input.get_vector()
+
+Write what you'll focus on during your next session :
+Thinking about puting the .0 on floats 
+Following the steps as intended, no rushing.

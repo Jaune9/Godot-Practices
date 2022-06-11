@@ -1,0 +1,39 @@
+name,scene,description,goals,project
+Making the ship move,res://MovingShip/01.MakingShipMove/MakingShipMove.tscn,Using a fixed velocity value, make the ship move by itself.,,the ship
+Listening to player input,res://MovingShip/02.AddingInput/AddingInput.tscn,,,the ship
+The boost mechanic,res://MovingShip/03.AddingTimer/AddingTimer.tscn,,,the ship
+Making the ship steer,res://MovingShip/04.MakingShipSteer/MakingShipSteer.tscn,,,the ship
+The inventory grid,res://Scoreboard/Inventory/Inventory.tscn,,,scoreboard
+The poem,res://Scoreboard/Poetry/Poem.tscn,,,scoreboard
+The to-do list,res://Scoreboard/TodoList/TodoList.tscn,,,scoreboard
+Simple dialogue box,res://DialogueBoxes/01.DialogueBox/LinearDialogue.tscn,,,slideshow
+Party members list,res://DialogueBoxes/02.Party/PartyMembersList.tscn,,,slideshow
+The credits screen,res://DialogueBoxes/03.Credits/CreditsScreen.tscn,,,dialogue tree
+Main menu screen,res://DialogueBoxes/04.Menu/MainMenuScreen.tscn,,,dialogue tree
+Changing sprite frames,res://TopDownMovement/01.Frames/Frames.tscn,,,top-down movement
+Flipping sprites,res://TopDownMovement/02.Flips/Flips.tscn,,,top-down movement
+Flipping when going left,res://TopDownMovement/03.FlipSprite/FlipSprite.tscn,,,top-down movement
+Choose the right frame,res://TopDownMovement/04.RestoreFrames/RestoreFrames.tscn,,,top-down movement
+Eight way movement,res://TopDownMovement/06.EightWayMovement/EightWayMovement.tscn,,,top-down movement
+Four way movement,res://TopDownMovement/07.FourWayMovement/FourWayMovement.tscn,,,top-down movement
+Bumping in walls,res://TopDownMovement/05.Collisions/Collisions.tscn,,,top-down movement
+Selecting random items,res://RandomRocks/01.SelectRandomItem/SelectRandomItem.tscn,,,random rocks
+Placing gems on a grid,res://RandomRocks/02.PlacingOnGrid/PlacingOnGrid.tscn,,,random rocks
+Generating random positions,res://RandomRocks/03.RandomPositions/RandomPositions.tscn,,,random rocks
+Applying blue noise,res://RandomRocks/04.RocksWithBlueNoise/RocksWithBlueNoise.tscn,,,random rocks
+The maze,res://ObstacleCourse/01.Maze/Maze.tscn,,,obstacle course
+Picking the gems,res://ObstacleCourse/02.PickingTheGems/PickingTheGems.tscn,,,obstacle course
+End game,res://ObstacleCourse/03.EndGame/EndGame.tscn,,,obstacle course
+The slowing turret,res://TowerDefense/01.SlowingTurret/SlowingTurret.tscn,,,tower defense
+Planet defender,res://TowerDefense/02.PlanetDefender/PlanetDefender.tscn,,,tower defense
+Homing rocket defender,res://TowerDefense/03.HomingRocketDefender/HomingRocketDefender.tscn,,,tower defense
+Triggering an animation,res://ObstacleCourse_Part2/01.Blink/Blink.tscn,,,Obstacle course part 2
+Increasing the gem counter,res://ObstacleCourse_Part2/02.GemCounter/GemCounter.tscn,,,Obstacle course part 2
+Turning on the lights,res://ObstacleCourse_Part2/03.LightSwitch/LightSwitch.tscn,,,Obstacle course part 2
+Adding the double jump,res://SideScroller/01.AddingDoubleJump/AddingDoubleJump.tscn,,,Think on your feet
+Creating a jump pad,res://SideScroller/02.CreatingAJumpPad/CreatingAJumpPad.tscn,,,Think on your feet
+Marbles,res://SideScroller/03.Marbles/Marbles.tscn,,,Think on your feet
+Fortune cookie,res://ObstacleCourse_Part3/practices/01.FortuneCookies/FortuneCookie.tscn,,,Obstacle course part 3
+Inventory items,res://ObstacleCourse_Part3/practices/02.Items/InventoryItems.tscn,,,Obstacle course part 3
+Saving the inventory,res://ObstacleCourse_Part3/practices/03.Saving/Saving.tscn,,,Obstacle course part 3
+Equipping items,res://ObstacleCourse_Part3/practices/04.Equipping/Equipping.tscn,,,Obstacle course part 3

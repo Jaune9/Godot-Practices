@@ -1,0 +1,9 @@
+Sumarize what you learn :
+Zen Mode shortcut
+get_node() and signals 
+
+Summarize what you did :
+I merged and deleted a local git branch
+
+Write what you'll focus on during your next session :
+Learn more about signals !

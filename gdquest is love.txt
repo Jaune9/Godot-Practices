@@ -1,0 +1,64 @@
+https://gdquest.github.io/learn-gdscript/#course/lesson-3-standing-on-shoulders-of-giants/lesson.tres
+
+Fixed my first error, woot
+
+
+Simulate a dice roll
+
+func roll_dice(max_value):
+	var dice_value = randi() % max_value + 1
+	display (dice_value)
+# display a value between 1 and max_value
+
+Alternate between state in a given order
+3 states :
+state++
+state %= 3
+
+Range : range(n) => list from 0 to n-1
+
+Chapter 22 : 
+lerp() == linear interpolation, returns a weighted average between 2 values.
+
+Ex to have an AI move toward position:
+
+```
+func _process(delta):
+	position = lerp(position, get_local_mouse_posiition(), delta * 2)
+```
+
+cell position to world coordinate :
+
+func convert_to_world_coordinates(cell):
+	return cell * cell_size + cell_size / 2
+
+GDQuest mail of the day : Use type hinting ! Helps auto completion and type understanding as a while
+
+Chapter 23 :
+Array management : 
+For a FIFO / Queue structure, use pop_front() 
+For a FILO / Stack structure, use po_back() 
+Both returns the poped element !
+
+Check if array is empty :
+while array_name:
+
+Accessing third to last element in array :
+array_name[-3]
+Check : array_name.size()
+
+Chapter 25 : Dictionnaries
+
+Keys can be anything : string, numbers, Vector2 etc (Vector2 => Useful to map a grid cell to a unit/element)
+
+You DON'T NEED .keys() TO LIST THE KEYS IN A DICT \o/
+for item_name in inventory:
+	print(item_name)
+DO THE COFFEE
+and values as well with inventory[item_name]
+
+Chapter 27 : Value types
+
+You can multiply a vector by an int but not add. What about overloading that ? By overloading position.x and position.y as "+ a tuple" ?
+
+Praise the Walrus Operator : It assign an infered type as well as the value to an element ! 

@@ -1,0 +1,40 @@
+TODO ONCE:
+https://www.youtube.com/watch?v=IlU-zDU6aQ0
+https://www.youtube.com/watch?v=k2Wcu6aGyz8
+
+Write your learning plan :
+- Why do you wwant to learn to code ? What's your goal ?
+I want to learn to code efficiently because it makes me proud of myself and the strength I feel when coding probably saved my soul. 
+I want to do Hunter Gatherer Clicker, a Monster Hunter x PokéClicker hybrid with ICRPG inspired mecanics.
+- What will you get when you reach your goal ?
+Drink water and learn all I can from GDQuest to gain in autonomy and sheer willpower!
+- Where and at what time will you practice ? 
+Daily, with exception when big game releases (looking at you MH Sunbreak and Monster Sanctuary DLC)
+- For how long will you practice ? 
+At least 30min
+- How will you avoid distractions ?
+No PokéClicker, No Mail, No Discord
+- How will you stay accountable ? 
+Discord and Reddit I guess ? It's the hardest part. 
+
+/////////////////////////////////////////////////////////////////////////
+
+TODO EVERYTIME:
+
+BEFORE :
+
+Raining sounds 
+Pomodoro
+
+AFTER :
+
+Clear your mind after practicing :
+- Summarize what you learned and what you did
+- Write what you'll focus on during your next session
+
+AROUND :
+
+Engage with the community and stay accountable :
+- Check #100DaysOfGamedev on Twitter
+- Showcase your result
+- Share what you learned

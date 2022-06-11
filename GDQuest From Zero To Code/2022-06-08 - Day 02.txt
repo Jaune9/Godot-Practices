@@ -1,0 +1,11 @@
+Sumarize what you learn :
+Assembling a game from different scene
+Using tilemap
+Manually adjusting tilemap when autotile fails
+
+Summarize what you did :
+I put a character, different map section and maj junction together to get a functionning game
+I sidetracked a little and read some code from the practice
+
+Write what you'll focus on during your next session :
+The first practice project : Make the ship move, for real this time. 

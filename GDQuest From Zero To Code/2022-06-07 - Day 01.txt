@@ -1,0 +1,10 @@
+Created a Godot project and change the setting according to https://gdquest.mavenseed.com/lessons/our-recommended-editor-settings
+
+Sumarize what you learn :
+I learned to change Godot settings i.e. font size and timing for different element (notably the coding help)
+
+Summarize what you did :
+Read a lot of stuff about motivation and Godot Engine configuration. 
+
+Write what you'll focus on during your next session :
+The first practice project : Make the ship move
