@@ -1,3 +1,9 @@
 Ctrl + Shift + F11 == Zen Mode
 
 Ctrl + A == Add a Node to the Scene (open New Node menu)
+
+[Empty] => Right click, quick load (only suggest valid files)
+
+Note: In Godot, the $ is an alias for the get_node() function.
+
+ctrl + shift + F = search and replace (#poor's_man_refactoring)

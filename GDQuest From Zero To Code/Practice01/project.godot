@@ -87,7 +87,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Learn to Code with Godot: Practices"
-run/main_scene="res://MovingShip/04.MakingShipSteer/MakingShipSteer.tscn"
+run/main_scene="res://Scoreboard/Inventory/Inventory.tscn"
 config/icon="res://icon.png"
 
 [autoload]

@@ -1,4 +1,12 @@
+Dans une Node, les propriétés et méthodes de la node sont accessibles directement donc
+add_child()
+get_node()
+etc sont relatifs.
+
 get_node() pour aller chercher une "sous" node
 get_node("descending/path").any_method() notamment
+Note: In Godot, the $ is an alias for the get_node() function.
 
 signal pour envoyer de la sous-node vers la node parente. 
+
+You can't access a child of a node until that node got a proper reference to it. When you create the instance, before you added it to the scene tree with add_child(), its points_label and name_label are unset because they initialize on ready.

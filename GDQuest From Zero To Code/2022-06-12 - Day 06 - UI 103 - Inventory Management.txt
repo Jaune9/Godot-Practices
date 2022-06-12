@@ -1,0 +1,15 @@
+Sumarize what you learn :
+UI can be streamlined as fuck, but are quite hard to learn at first
+Instantiating new things with things.new()
+Order of Instantiating matters and is tricky at first. Think in object, not in variables, and it will be ok.
+You can't access a child of a node until that node got a proper reference to it. When you create the instance, before you added it to the scene tree with add_child(), its points_label and name_label are unset because they initialize on ready.
+
+Summarize what you did :
+Stylised a theme with margin, heritance and all. 
+Spend hours trying to backlip my f*ing keyboard. 
+Did a basic score system with 2 string on a line
+Each line was a scene that I could instantiate on command
+Manipulate scenes for the first time
+
+Write what you'll focus on during your next session :
+Inventory Management !
