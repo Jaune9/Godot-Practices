@@ -10,6 +10,7 @@ Spend hours trying to backlip my f*ing keyboard.
 Did a basic score system with 2 string on a line
 Each line was a scene that I could instantiate on command
 Manipulate scenes for the first time
+FINISHED MY FIRST CHALLENGE WOOT WOOT
 
 Write what you'll focus on during your next session :
 Inventory Management !

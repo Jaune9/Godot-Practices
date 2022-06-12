@@ -25,4 +25,4 @@ func _ready() -> void:
 func add_poetry_line(text: String) -> void:
 	var poetry_line := preload("PoetryLine.tscn").instance()
 	add_child(poetry_line)
-	# Set the text of the poetry line instance. Open PoetryLine.gd to learn how.
+	poetry_line.set_text(text)

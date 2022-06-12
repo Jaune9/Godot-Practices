@@ -1,3 +1,5 @@
+https://docs.godotengine.org/en/stable/tutorials/editor/default_key_mapping.html
+
 Ctrl + Shift + F11 == Zen Mode
 
 Ctrl + A == Add a Node to the Scene (open New Node menu)
@@ -7,3 +9,7 @@ Ctrl + A == Add a Node to the Scene (open New Node menu)
 Note: In Godot, the $ is an alias for the get_node() function.
 
 ctrl + shift + F = search and replace (#poor's_man_refactoring)
+
+ctrl + K = Comment
+
+ctrl + alt + O = Quick Open Script
