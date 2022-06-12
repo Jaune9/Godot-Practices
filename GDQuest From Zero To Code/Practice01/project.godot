@@ -87,7 +87,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Learn to Code with Godot: Practices"
-run/main_scene="res://Scoreboard/TodoList/TodoList.tscn"
+run/main_scene="res://DialogueBoxes/02.Party/PartyMembersList.tscn"
 config/icon="res://icon.png"
 
 [autoload]

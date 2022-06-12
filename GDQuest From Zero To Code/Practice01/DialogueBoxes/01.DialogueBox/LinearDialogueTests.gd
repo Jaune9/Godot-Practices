@@ -17,7 +17,7 @@ func _prepare_async() -> void:
 		are_names_correct = are_names_correct and scene_root.name_label.text == dialogue[index].name
 		are_portraits_correct = are_portraits_correct and scene_root.texture_rect.texture == dialogue[index].texture
 		scene_root.advance()
-		yield(tree.create_timer(0.7), "timeout")
+		yield(tree.create_timer(3.5), "timeout")
 		
 
 

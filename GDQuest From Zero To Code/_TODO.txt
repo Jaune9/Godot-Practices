@@ -2,6 +2,7 @@ TODO AT LEAST ONCE:
 
 https://www.youtube.com/watch?v=IlU-zDU6aQ0
 https://www.youtube.com/watch?v=k2Wcu6aGyz8
+https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
 
 /////////////////////////////////////////////////////////////////////////
 
@@ -45,3 +46,6 @@ https://www.youtube.com/watch?v=k2Wcu6aGyz8
 
 IF CREATIVITY IS LOW :
 https://youtu.be/ZWI4_Oe-Qbs
+
+LOKING FOR GOOD PRACTICES ? :
+https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/

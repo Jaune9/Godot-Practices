@@ -1,8 +1,12 @@
 https://gdquest.mavenseed.com/lessons/signals-connection-and-good-practices
 https://gdquest.mavenseed.com/lessons/cheatsheet-the-most-useful-ui-nodes-to-get-started
+https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/
 
 By connecting a signal to a node, you can let Godot call a function of that node every time the signal emits. We call that function a callback because it gets “called back” when the signal emits.
 
+Tweens = In-between animations (computer generated in between animations)
+
+Sleep : yield(tree.create_timer(3.5), "timeout")
 
 You can't access a child of a node until that node got a proper reference to it. When you create the instance, before you added it to the scene tree with add_child(), its points_label and name_label are unset because they initialize on ready.
 

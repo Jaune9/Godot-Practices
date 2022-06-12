@@ -1,0 +1,12 @@
+Sumarize what you learn :
+Use tweens to create dynamic display without much effort
+INF is infinity
+
+////////////////////////////////////////////////////////////////////
+
+Summarize what you did :
+Display text dynamically rather than staticly
+
+////////////////////////////////////////////////////////////////////
+
+Write what you'll focus on during your next session :

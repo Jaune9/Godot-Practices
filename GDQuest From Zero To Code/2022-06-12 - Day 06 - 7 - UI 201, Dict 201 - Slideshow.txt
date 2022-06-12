@@ -25,6 +25,8 @@ but you can also connect to already existing functions.
 ////////////////////////////////////////////////////////////////////
 
 Summarize what you did :
+Did a slideshow with basic array and dict manipulation
+Used preload(relative_path) to use image
 
 ////////////////////////////////////////////////////////////////////
 
