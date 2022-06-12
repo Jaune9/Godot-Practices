@@ -1,0 +1,31 @@
+Sumarize what you learn :
+
+The connect() function has three required arguments:
+- The signal’s name as a String.
+- A reference to the node holding the callback function. Use self to connect to the node to which you attached the script.
+- The name of the callback function as a String.
+
+"""GDScript
+# We get a reference to the HideButton node.
+onready var hide_button := $MarginContainer/VBoxContainer/HideButton
+
+func _ready() -> void:
+    # The pressed signal exists on the Button node, so we need to call the
+    # connect() function on the button.
+    hide_button.connect("pressed", self, "_on_HideButton_pressed")
+"""
+
+==> The call to the connect() function reads as “connect the HideButton’s pressed signal to this node’s _on_HideButton_pressed() function.”
+
+Godot users follow a convention to name the signal callback functions: 
+_on_NodeName_signal_name()
+but you can also connect to already existing functions.
+
+
+////////////////////////////////////////////////////////////////////
+
+Summarize what you did :
+
+////////////////////////////////////////////////////////////////////
+
+Write what you'll focus on during your next session :

@@ -1,13 +1,8 @@
-Dans une Node, les propriétés et méthodes de la node sont accessibles directement donc
-add_child()
-get_node()
-etc sont relatifs.
+https://gdquest.mavenseed.com/lessons/signals-connection-and-good-practices
+https://gdquest.mavenseed.com/lessons/cheatsheet-the-most-useful-ui-nodes-to-get-started
 
-get_node() pour aller chercher une "sous" node
-get_node("descending/path").any_method() notamment
-Note: In Godot, the $ is an alias for the get_node() function.
+By connecting a signal to a node, you can let Godot call a function of that node every time the signal emits. We call that function a callback because it gets “called back” when the signal emits.
 
-signal pour envoyer de la sous-node vers la node parente. 
 
 You can't access a child of a node until that node got a proper reference to it. When you create the instance, before you added it to the scene tree with add_child(), its points_label and name_label are unset because they initialize on ready.
 
@@ -16,27 +11,16 @@ var child = preload("Path_to_Scene.tscn").instance()
 add_child(child)
 https://godotengine.org/qa/6845/anyone-please-explain-preloading-actually-regular-loading
 
-Yield to call a member function on a scene instance :
-func set_text(new_text: String) -> void:
-	# These two lines allow you to call the set_text() function before 
-	# adding the poetry line as a child of the poem node.
-	#
-	# Yield() is a slightly more advanced feature that will learn towards the 
-	# end of the course.
-	if not is_inside_tree():
-		yield(self, "ready")
+////////////////////////////////////////////////////////////////////
 
-	label.text = new_text
+NODES
 
-If struggling with intanciation and stuff, check the 
-2. Scoreboard - 3 The Todo List practice
+Dans une Node, les propriétés et méthodes de la node sont accessibles directement donc
+add_child()
+get_node()
+etc sont relatifs.
 
-Dict syntax are fun in GDScript :
-var player_scores := {
-	"Scrooge McDuck": 999999,
-	"Magicka De Spell": 700,
-	"Marie Marie Mariiiiie": 270211
-}
-for name in player_scores:
-    add_line(name, str(player_scores[name]))
-
+get_node() pour aller chercher une "sous" node
+get_node("descending/path").any_method() notamment
+Note: In Godot, the $ is an alias for the get_node() function.
+signal pour envoyer de la sous-node vers la node parente. 

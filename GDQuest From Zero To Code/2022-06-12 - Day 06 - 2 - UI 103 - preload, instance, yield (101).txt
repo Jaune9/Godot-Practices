@@ -12,5 +12,21 @@ Each line was a scene that I could instantiate on command
 Manipulate scenes for the first time
 FINISHED MY FIRST CHALLENGE WOOT WOOT
 
+If struggling with intanciation and stuff, check the 
+2. Scoreboard - 3 The Todo List practice
+
+
+Yield to call a member function on a scene instance :
+func set_text(new_text: String) -> void:
+	# These two lines allow you to call the set_text() function before 
+	# adding the poetry line as a child of the poem node.
+	#
+	# Yield() is a slightly more advanced feature that will learn towards the 
+	# end of the course.
+	if not is_inside_tree():
+		yield(self, "ready")
+
+	label.text = new_text
+
+
 Write what you'll focus on during your next session :
-Inventory Management !

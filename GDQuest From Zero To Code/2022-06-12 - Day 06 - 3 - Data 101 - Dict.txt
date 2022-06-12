@@ -1,0 +1,22 @@
+Sumarize what you learn :
+
+Dict syntax are fun in GDScript :
+
+var player_scores := {
+	"Scrooge McDuck": 999999,
+	"Magicka De Spell": 700,
+	"Marie Marie Mariiiiie": 270211
+}
+for name in player_scores:
+    add_line(name, str(player_scores[name]))
+
+player_scores[player_name] = player_points # update if exist else create
+
+////////////////////////////////////////////////////////////////////
+
+Summarize what you did :
+Had fun :) 
+
+////////////////////////////////////////////////////////////////////
+
+Write what you'll focus on during your next session :
