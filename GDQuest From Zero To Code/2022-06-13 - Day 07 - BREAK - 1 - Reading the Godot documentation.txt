@@ -1,0 +1,26 @@
+Read from 
+Introduction
+https://docs.godotengine.org/en/stable/about/introduction.html#before-you-start
+to
+https://docs.godotengine.org/en/stable/getting_started/first_2d_game/02.player_scene.html
+
+
+Sumarize what you learn :
+List of features : https://docs.godotengine.org/en/stable/about/list_of_features.html
+Logic of abstraction / Organisation of objects : https://docs.godotengine.org/en/stable/getting_started/step_by_step/instancing.html
+
+Saw how to disable/re-enable a node with set_process https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html
+
+To create a signal in your script, ```signal health_depleted``` as a var declaration
+Can take argument as ```signal health_changed(old_value, new_value)```
+
+To call a signal from within your scripts, call emit_signal(), ex ```emit_signal("health_depleted", old_value, new_value)
+
+Summarize what you did :
+Read a lot
+
+Write what you'll focus on during your next session :
+Going back to GDQuest
+
+Lots of tutorials here :
+https://docs.godotengine.org/en/stable/community/tutorials.html#doc-community-tutorials

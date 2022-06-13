@@ -1,0 +1,36 @@
+Sumarize what you learn :
+
+Q : Should you name every Button so that pressed() won't act the same on them but they're still under polymorphism law ?
+
+A :It depends on the context but if you're going to make button nodes in your scenes I would recommend giving each button a unique name to make it easy to find the node and understand when the buttons for in your code.
+
+It will help down the line with debugging because you can see the node names and inspect the nodes in the live running game. To do so , you click on the Remote tab that appears in the scene dock when running the game.
+
+//////////////////////////////////////////////////////////////
+
+Q : I also saw there's no refactoring per say in Godot. How do you adress it in a professionnal context ?
+
+A: There are some tools built-in. For scenes, you while typically save branches of a large scene as a smaller reasonable scene. So you can start concrete and split it into components.
+
+Then there are some ways to work like favoring things like aggregation and plugging resources into nodes, then you don't need so much refactoring of your scenes.
+
+Finally, GDScript has a language server and it at least has the rename feature implemented if you code in an external editor like visual studio code. You can't extract functions or whatnot yet but that's that at least.
+
+So the way you addressed isn't a professional context is by using composition I would say. Godot also does a ton for us and makes some things are really easy so in my experience refactoring hasn't been too much of a problem.
+
+//////////////////////////////////////////////////////////////
+
+Q : Is there a different approach possible in a solo dev context ?
+
+A : While you have to use an object-oriented and imperative code style, you will see that Godot gives you a ton of flexibility. We work without thinking about principles too much and solve problems in whatever way seems most appropriate for the requirements at hand.
+
+In general using aggregation is a good rule of thumb. Trying to make scenes that just work on their own, standalone, and that you can compose with minimal dependencies. For example, you can very easily make a camera move to follow its parent without the parent knowing or getting any error if you delete the camera.
+
+You have at least four options to do this in Godot, the most reliable two being using get_parent()/owner from the camera or using a RemoteTransform2D node to push a character's position to the camera. That second approach has the advantage of working across viewports.
+
+That's just one example but hopefully it makes sense. Godot can do quite a lot to decouple things for you.
+
+Summarize what you did :
+
+Write what you'll focus on during your next session :
+

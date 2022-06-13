@@ -1,6 +1,7 @@
 https://gdquest.mavenseed.com/lessons/signals-connection-and-good-practices
 https://gdquest.mavenseed.com/lessons/cheatsheet-the-most-useful-ui-nodes-to-get-started
 https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/
+https://youtu.be/n505BEFqPnw
 
 By connecting a signal to a node, you can let Godot call a function of that node every time the signal emits. We call that function a callback because it gets “called back” when the signal emits.
 

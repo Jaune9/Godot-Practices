@@ -13,3 +13,5 @@ ctrl + shift + F = search and replace (#poor's_man_refactoring)
 ctrl + K = Comment
 
 ctrl + alt + O = Quick Open Script
+
+F1 = Integrated help
