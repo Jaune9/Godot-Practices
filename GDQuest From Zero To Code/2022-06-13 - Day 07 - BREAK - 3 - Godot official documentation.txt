@@ -1,0 +1,23 @@
+# Not the usual form, note taken on a trip
+
+Followed tutorial up until the 2D game end, start of the 3D one. 
+
+What I learned : 
+export var thing # show thing in Godot UI 
+clamp(min, max) exist in GDScript \o/
+
+disabling the area's collision shape can cause an error if it happens in the middle of the engine's collision processing. Using set_deferred() tells Godot to wait to disable the shape until it's safe to do so. Ex:
+func _on_Player_body_entered(body):
+    hide() # player disappears after a hit
+    emit_signal("hit")
+    # Must be deferred as we can't change physics properties on a physic callback
+    $CollisioonShape2D.set_deferred("disabled", true)
+
+
+$AnimatedSprite.flip_h = velocity.x < 0
+
+There's a vector math tutorial in the Godot Doc. 
+
+
+What I'll focus on :
+I want to try and do a little 20Min Until Dawn or Vampire Survivor like

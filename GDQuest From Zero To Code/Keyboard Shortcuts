@@ -1,17 +1,14 @@
 https://docs.godotengine.org/en/stable/tutorials/editor/default_key_mapping.html
 
-Ctrl + Shift + F11 == Zen Mode
-
-Ctrl + A == Add a Node to the Scene (open New Node menu)
-
-[Empty] => Right click, quick load (only suggest valid files)
-
 Note: In Godot, the $ is an alias for the get_node() function.
 
-ctrl + shift + F = search and replace (#poor's_man_refactoring)
-
+Editor :
 ctrl + K = Comment
+ctrl + shift + F = search and replace (#poor's_man_refactoring)
+Ctrl + Shift + F11 == Zen Mode
 
-ctrl + alt + O = Quick Open Script
-
+UI :
 F1 = Integrated help
+Ctrl + A == Add a Node to the Scene (open New Node menu)
+ctrl + alt + O = Quick Open Script
+[Empty] => Right click, quick load (only suggest valid files)
