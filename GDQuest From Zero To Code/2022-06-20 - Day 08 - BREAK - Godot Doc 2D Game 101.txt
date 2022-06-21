@@ -2,7 +2,9 @@
 # I still have them, it's just to not lose too much, not to gain much. 
 
 Sumarize what you learn :
+Change the Project setting to adjust screen size and resizing 
 
 Summarize what you did :
+Followed the 2D tutorials while doing 
 
 Write what you'll focus on during your next session :

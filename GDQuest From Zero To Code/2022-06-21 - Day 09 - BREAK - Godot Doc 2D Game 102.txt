@@ -1,0 +1,21 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+
+Sumarize what you learn :
+$CollisionShape2D.set_deferred("disabled", true)
+==
+wait(engine)
+$CollisionShape2D = true 
+
+Mask to enable/disable friendly fire
+
+Delete something when it gets out of screen :
+func _on_VisibilityNotifier2D_screen_exited() -> void:
+	queue_free()
+
+Summarize what you did :
+Followed the 2D tutorials while doing 
+Played with the gravity to make enemies fall backward wahahaha
+
+Write what you'll focus on during your next session :
+The journey, not the destination.

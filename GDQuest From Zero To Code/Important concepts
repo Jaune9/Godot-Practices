@@ -3,9 +3,13 @@ https://gdquest.mavenseed.com/lessons/cheatsheet-the-most-useful-ui-nodes-to-get
 https://www.gdquest.com/docs/guidelines/best-practices/godot-gdscript/
 https://youtu.be/n505BEFqPnw
 
-By connecting a signal to a node, you can let Godot call a function of that node every time the signal emits. We call that function a callback because it gets “called back” when the signal emits.
 
-Tweens = In-between animations (computer generated in between animations)
+$CollisionShape2D.set_deferred("disabled", true)
+==
+wait(engine)
+$CollisionShape2D = true 
+
+By connecting a signal to a node, you can let Godot call a function of that node every time the signal emits. We call that function a callback because it gets “called back” when the signal emits.
 
 Sleep : yield(tree.create_timer(3.5), "timeout")
 
@@ -29,3 +33,6 @@ get_node() pour aller chercher une "sous" node
 get_node("descending/path").any_method() notamment
 Note: In Godot, the $ is an alias for the get_node() function.
 signal pour envoyer de la sous-node vers la node parente. 
+
+ANIMATION
+Tweens = In-between animations (computer generated in between animations)
