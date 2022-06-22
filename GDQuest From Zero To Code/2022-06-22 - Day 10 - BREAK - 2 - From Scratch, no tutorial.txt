@@ -3,9 +3,11 @@
 # UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
 
 Sumarize what you learn :
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html
 
 Summarize what you did :
 Triffled with the menue, needed to go
 
 Write what you'll focus on during your next session :
 Go back in the Project Settings for giggle and shit
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html
