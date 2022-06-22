@@ -1,0 +1,67 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+# UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
+
+Sumarize what you learn :
+export(PackedScene) var mob_scene
+allows to put something in the Inspector Dock under Script Variables, notably a scene in this case. 
+That how I imported the Mob scene to add_child() them as often as I need. 
+
+Used yield to wait for an existing timer to end
+	yield($MessageTimer, "timeout")
+Also generate a one time use timer :
+	yield(get_tree().create_timer(1), "timeout")
+
+I linked a signal I created with 
+
+signal start_game
+...	
+	emit_signal("start_game")
+
+to an existing function (new_game())
+by replacing the autonamed function of the Node dock menu by the function name.
+
+Learned to apply a function like queue_free to a group with 
+	get_tree().call_group("mobs", "queue_free")
+To define a group, check the Signal Dock, there's a Group tab. Just create one and paf. 
+
+Learned to use the Shortcut property of a Button Node to link a corresponding Input Map action
+
+Learned to EXPORT MY EXE \o/ 
+
+
+Summarize what you did :
+
+
+
+Write what you'll focus on during your next session :
+Come back to 
+func _on_MobTimer_timeout() -> void: 
+to see how it works when I can test it 
+
+=> Went and check in, make far much more sense now with this indent / split
+
+
+func _on_MobTimer_timeout() -> void:
+	
+	# create the mob
+	var mob = mob_scene.instance()
+	
+	# chose a random location on Path2D
+	var mob_spawn_location = $MobPath/MobSpawnLocation
+	mob_spawn_location.offset = randi()
+	var direction = mob_spawn_location.rotation + PI / 2
+
+	# give the random position to the mob
+	mob.position = mob_spawn_location.position
+	
+	# randomness !
+	direction += rand_range(-PI / 4, PI / 4)
+	mob.rotation = direction
+	
+	# speed
+	var velocity = Vector2(rand_range(150.0, 250.0), 0.0)
+	mob.linear_velocity = velocity.rotated(direction)
+	
+	# add the instance to the tree
+	add_child(mob)
