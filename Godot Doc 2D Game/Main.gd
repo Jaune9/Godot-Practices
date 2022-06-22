@@ -58,4 +58,3 @@ func _on_MobTimer_timeout() -> void:
 	
 	# add the instance to the tree
 	add_child(mob)
-
