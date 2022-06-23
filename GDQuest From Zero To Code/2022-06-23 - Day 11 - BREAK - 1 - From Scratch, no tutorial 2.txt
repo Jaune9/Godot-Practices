@@ -1,0 +1,12 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+# UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
+
+Sumarize what you learn :
+Hérémy is kind of a douche sometimes
+
+Summarize what you did :
+Triffled with the Project Settings menue
+
+Write what you'll focus on during your next session :
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html

@@ -8,6 +8,7 @@ ctrl + shift + F = search and replace (#poor's_man_refactoring)
 Ctrl + Shift + F11 == Zen Mode
 
 UI :
+Ctrl + F1...F4 : Switch to the corresponding Tab (2D, 3D, Script, AssetLib)
 F1 = Integrated help
 Ctrl + A == Add a Node to the Scene (open New Node menu)
 ctrl + alt + O = Quick Open Script

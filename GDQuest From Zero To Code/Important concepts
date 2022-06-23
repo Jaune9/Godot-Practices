@@ -38,3 +38,5 @@ signal pour envoyer de la sous-node vers la node parente.
 
 ANIMATION
 Tweens = In-between animations (computer generated in between animations)
+
+if Input.is_action_pressed("right"):

@@ -1,0 +1,13 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+# UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
+
+Sumarize what you learn :
+Physic and different Kinematic/Rigid etc Body types
+https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html#doc-physics-introduction
+
+Summarize what you did :
+
+
+Write what you'll focus on during your next session :
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html
