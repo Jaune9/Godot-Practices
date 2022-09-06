@@ -1,0 +1,22 @@
+Sumarize what you learn :
+
+Taking things back after almost 3 month is hard
+Dict are fun for dialogue trees
+Templates and stuff UI is quite surprising
+
+The Main Menu Screen exercise is good at explaining changing scenes and all
+
+////////////////////////////////////////////////////////////////////
+
+Summarize what you did :
+
+The whole Dialogue Tree exercise from Zero to Code
+Used 
+	quit_button.connect("pressed", get_tree(), "quit")
+to make a quit button, since get_tree call the SceneTree
+
+////////////////////////////////////////////////////////////////////
+
+Write what you'll focus on during your next session :
+
+Existing is hard enough already

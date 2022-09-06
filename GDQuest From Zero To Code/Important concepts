@@ -68,3 +68,5 @@ Notably this section :
 16. private methods
 
 PackedScene are Scenes with more than one Node, Object basically ! 
+
+A recap : https://gdquest.mavenseed.com/lessons/creating-nodes-and-scene-instances
