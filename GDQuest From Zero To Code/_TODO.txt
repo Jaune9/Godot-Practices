@@ -1,5 +1,6 @@
 TODO AT LEAST ONCE:
 
+file:///C:/Users/winal/Desktop/GODOT%20DOC%20OFFLINE/tutorials/scripting/singletons_autoload.html#doc-singletons-autoload
 https://www.youtube.com/watch?v=IlU-zDU6aQ0
 https://www.youtube.com/watch?v=k2Wcu6aGyz8
 https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/

@@ -1,0 +1,30 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+# UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
+# UPDATE : It's never ending, but it's getting better. Can't wait until something like the 20th of July so it's over.
+
+Starting here :
+getting_started/first_3d_game/04.mob_scene
+
+Sumarize what you learn :
+Layers define on which physics layer(s) an object is.
+Masks control the layers that a body will listen to and detect. 
+I learned how collision detection works in 3D : you can collide with more than 1 element by frame, so each collision has an index. You can then get the collision by its ID and work on each collision separately. So smart and clean.
+The method is_in_group() is available on every Node.
+GDScript string formatting
+/tutorials/scripting/gdscript/gdscript_format_string.html#doc-gdscript-printf
+
+Summarize what you did :
+Used
+export (PackedScene) var mob_scene
+To have a mob pattern to generate as I want
+
+Used 
+mob.connect("squashed", $UI/ScoreLabel, "_on_Mob_squashed")
+again, here to connect the squashed signal of the mob object to the _func from ScoreLabel
+
+Read this very good piece of advice :
+In a complex game, you may want to completely separate your user interface from the game world. In that case, you would not keep track of the score on the label. Instead, you may want to store it in a separate, dedicated object. But when prototyping or when your project is simple, it is fine to keep your code simple. Programming is always a balancing act.
+
+Write what you'll focus on during your next session :
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html

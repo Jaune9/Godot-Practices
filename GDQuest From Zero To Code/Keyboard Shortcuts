@@ -13,3 +13,5 @@ F1 = Integrated help
 Ctrl + A == Add a Node to the Scene (open New Node menu)
 ctrl + alt + O = Quick Open Script
 [Empty] => Right click, quick load (only suggest valid files)
+Ctrl + Number = Number of viewpoints
+Ctrl + D = Duplicate Node

@@ -1,0 +1,19 @@
+# I had (draining) obligations for a few days. 
+# I still have them, it's just to not lose too much, not to gain much. 
+# UPDATE : It seems it will be over by the end of the month ! Finally news on this. 
+# UPDATE : It's never ending, but it's getting better. Can't wait until something like the 20th of July so it's over.
+
+Sumarize what you learn :
+The Singleton pattern is used to save the state of element between scenes thanks to autoloading 
+All autoloaded Nodes are accessibles like so :
+var player_vars = get_node("/root/PlayerVariables")
+player_vars.health -= 10
+or directly like a global variable 
+PlayerVariables.health -= 10
+
+Summarize what you did :
+I didn't added music and animation so technically, 3D Squash the Creep is currently unfinished. 
+I'm satisfied with what I learned tho, and intend on focusing on 2D. 
+
+Write what you'll focus on during your next session :
+https://docs.godotengine.org/en/3.2/getting_started/scripting/gdscript/static_typing.html
