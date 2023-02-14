@@ -1,0 +1,20 @@
+Sumarize what you learn :
+
+Did the GDQuest Practices in Godot to learn about UI with the Scoreboard exercices.
+I learned about preloading, instance, add_child and using member methods. 
+
+Summarize what you did :
+
+A preload is a template, a kind of class. You need to instanciate it to use it.
+To add a child node, you need to instanciate it from a preload : 
+
+const MyClass := preload("ClassName.tscn")
+
+func add_child_to_current_node():
+    var myObject := MyClass.instance()
+    add_child(myObject)
+    myObject.member_method()
+
+Write what you'll focus on during your next session :
+
+Doing the Scoreboard section of the webpage (not the Godot Practices) : https://gdquest.mavenseed.com/lessons/scoreboard-introduction-041388c91e1b0419

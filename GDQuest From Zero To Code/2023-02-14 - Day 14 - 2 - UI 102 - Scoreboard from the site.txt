@@ -1,0 +1,12 @@
+Sumarize what you learn :
+
+Panels are used to put things in it, UI wise. 
+
+Summarize what you did :
+
+PanelContainer (Layout => Full Rect)
+=> MarginContainer
+
+
+Write what you'll focus on during your next session :
+

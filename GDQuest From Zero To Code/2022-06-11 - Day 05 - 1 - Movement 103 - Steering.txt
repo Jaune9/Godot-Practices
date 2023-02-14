@@ -1,7 +1,7 @@
 Sumarize what you learn :
 
     named_vector2.x = get_axis(x-, x+)
-    named_vector2.y =  get_axis(y_, y+) 
+    named_vector2.y = get_axis(y-, y+) 
     direction = direction.normalized()
 is equivalent to get_vector()
 

@@ -1,0 +1,26 @@
+Sumarize what you learn :
+
+To create a Node from code, you have 3 steps :
+You write the node type with its name followed by .new(). For example, Timer.new(), or Sprite.new().
+You initialize the node to work the way you want using its properties, like Sprite.texture.
+You add it as a child of another node with the add_child() member function.
+
+Properly link to other nodes : 
+You could do 
+var scores_column: Node
+
+func _ready() -> void:
+    scores_column = $MarginContainer/VBoxContainer/ScoresColumn
+
+To wait for $ScoresColumn to be ready, but it's bad practices. The proper way is 
+onready var scores_column := $MarginContainer/VBoxContainer/ScoresColumn
+
+Create and add nodes on demand 
+
+Summarize what you did :
+https://gdquest.mavenseed.com/lessons/listing-names-in-the-score-panel
+
+Added a child somewhere else :
+$MarginContainer/VBoxContainer/ScoresColumn.add_child(row)
+
+Write what you'll focus on during your next session :

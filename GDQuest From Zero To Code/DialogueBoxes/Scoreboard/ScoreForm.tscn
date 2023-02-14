@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scoreboard/Scoreboard.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scoreboard/ScoreForm.gd" type="Script" id=2]
+
+[node name="ScoreForm" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 144.0
+margin_top = 504.0
+margin_right = -144.0
+margin_bottom = -504.0
+script = ExtResource( 2 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+margin_bottom = 71.0
+
+[node name="NameField" type="LineEdit" parent="HBoxContainer"]
+margin_right = 1598.0
+margin_bottom = 71.0
+size_flags_horizontal = 3
+placeholder_text = "Donne ton tag hé bâtard !"
+
+[node name="OkButton" type="Button" parent="HBoxContainer"]
+margin_left = 1602.0
+margin_right = 1632.0
+margin_bottom = 71.0
+text = "Ok"
+
+[node name="Scoreboard" parent="." instance=ExtResource( 1 )]
+visible = false
