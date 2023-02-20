@@ -1,0 +1,8 @@
+When you fight with a weapon, you become better at this weapon type until you reach a moment where you can't progress for X units of time. 
+
+From there, you can keep using it until the period ends, then continuing leveling it up. 
+
+Or you can switch weapon type, get proficient with this new weapon, and come back to your other weapon type later. It's actually a good idea : When you don't use a weapon type for a while you lose a little proficiency with this weapon type (up to 5 or 10%, no more) but the more you forgot, the faster you'll learn and get back you X% and get the next one as well. Switching weapon type IS the best way to progress your proficiency, even if you want to main a weapon type. 
+
+
+IT MIGHT BE DONE WITH TOOLS TOO
